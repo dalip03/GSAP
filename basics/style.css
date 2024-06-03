@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, 
+body{
+    background-color: #111;
+    overflow-x: hidden;
+
+}
+#box{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+
+   
+}
+#box1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+#nav{
+    display: flex;
+    padding: 30px 50px;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
+#box2{
+    display: flex;
+align-items: center;
+gap:50px;
+}
+/* ------------------------------ */
+#page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#page2 h2{
+    font-size: 30px;
+    background-color: aquamarine;
+    padding:20px
+}
+#page2 h1{
+    font-size: 30px;
+    background-color: rgb(174, 225, 208);
+    padding:20px
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+
+}
+#page3 h1{
+    font-size: 90vh;
+    text-transform: uppercase;
+}
+
+#bx1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(216, 185, 245);
+    border-radius: 5%;
+}
