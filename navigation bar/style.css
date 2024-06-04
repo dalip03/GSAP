@@ -65,7 +65,14 @@ body{
     padding: 40px;
     font-size: 24px;
     backdrop-filter: blur(10px);
-
+    padding-top: 25vh;
+    gap: 30px;
+    
+}
+#fullnav h4 a{
+    text-decoration: none;
+    color: #111;
+    line-height: 20%;
 }
 #close{
     position: absolute;
