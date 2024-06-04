@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, 
+body{
+    background-color: #111;
+    overflow-x: hidden;
+
+}
+#main{
+    height: 100vh;
+    width: 100%;
+}
+#cursor{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(190, 237, 249);
+    border-radius: 50%;
+    position: fixed;
+}
