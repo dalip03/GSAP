@@ -85,3 +85,12 @@ gap:50px;
     background-color: rgb(216, 185, 245);
     border-radius: 5%;
 }
+
+/* ........................................... */
+
+#string{
+    height: 35vh;
+    width: 100%;
+    background-color: aquamarine;
+    
+}
