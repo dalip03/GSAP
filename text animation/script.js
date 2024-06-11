@@ -20,8 +20,7 @@ tl.from("#nav h1", {
 tl.from("#menu h4", {
      y:-50,
     opacity:0,
-    duration:0.4,
-    stagger:2
+    duration:0.6,
 })
 tl.from("#page1 h1",{
     x:50,
